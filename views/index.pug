@@ -1,0 +1,66 @@
+doctype html
+html
+    head
+        title Anushika Dance Academy 
+        style
+            include ../static/style.css
+    body 
+        nav#navbar 
+            ul 
+                li #[a(href='/').logo ADA]
+                li #[a(href='/') Home]
+                li #[a(href='/') About]
+                li #[a(href='/') Services]
+                li #[a(href='/') Class Info]
+                li #[a(href='/') Contact Us]
+
+        section#introSection
+            div Welcome to Anushika's Dance Academy 
+            div.small Eat Sleep Dance Repeat.
+
+        section#missionSection 
+            h2 Our Mission 
+            div.card
+                h3 Dance Perfection
+                div.card-box
+                    ul.card-img
+                        li &nbsp;o
+                        li /|\
+                        li &nbsp;@
+                        li /\
+                    div.card-content
+                        p This is Card Content
+            div.card
+                h3 Dance the way you like
+                div.card-box
+                    ul.card-img
+                        li &nbsp;o
+                        li /|\
+                        li &nbsp;@
+                        li /\
+                    div.card-content
+                        p This is Card Content
+            div.card
+                h3 Expert Teaching
+                div.card-box
+                    ul.card-img
+                        li &nbsp;o
+                        li /|\
+                        li &nbsp;@
+                        li /\
+                    div.card-content
+                        p This is Card Content
+
+        section#sponsorsSection 
+            h2 Our Sponsors 
+            div#sponsors
+                img(src="/static/img/fblogo.png", alt="FB", class="spImage")
+                img(src="/static/img/instalogo.png", alt="Insta", class="spImage")
+                img(src="/static/img/twitterlogo.png", alt="Twitter", class="spImage")
+                img(src="/static/img/wtsplogo.png", alt="Wtsp", class="spImage")
+
+        footer#footer 
+            | Copyright © 2022 Anushika Dance Academy | All rights reserved.
+
+        script 
+            include ../static/index.js
